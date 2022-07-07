@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки</title>
+</head>
+<style>
+    body{
+        background-color:bisque;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .shop {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        
+    }    
+    .card {
+        width: 360px;
+        
+    }
+    .card__top {
+        height: 360px;
+        
+    }
+      .card__bot {
+        background-color: #ffffff;
+        height: 110px;        
+        box-shadow: 1px 1px 5px grey;
+    }
+
+    .text__bot{
+        padding-top: 35px;
+        font-size: 40px;
+        padding-left: 10px;
+    }
+    .text__top{
+        font-size:200px;
+        text-align: center;
+        padding-top: 65px;
+    }
+    .card__top3 {
+        background-color: #269f5d;
+        color:white;
+        
+    }
+    .card__top2 {
+        background-color: #65c2dc;
+        color:#333333;
+        
+    }
+    .card__top1 {
+        background-color: #eebc40;
+        color:white;
+
+    }
+    
+</style>
+<body>
+<div class="shop">
+    <div class="card">
+        <div class="card__top3 card__top">
+            <div class="text__top">
+                3
+            </div>
+        </div>
+        <div class="card__bot">
+            <div class="text__bot">
+                Card 3
+            </div> 
+        </div>
+    </div>
+    <div class="card">
+        <div class="card__top2  card__top">
+            <div class="text__top">
+                1
+            </div>
+        </div>
+        <div class="card__bot  ">
+            <div class="text__bot">
+                Card 1
+            </div> 
+        </div>
+    </div>
+    <div class="card">
+        <div class="card__top1  card__top">
+            <div class="text__top">
+                2
+            </div>
+        </div>
+        <div class="card__bot">
+            <div class="text__bot">
+                Card 2
+            </div> 
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
