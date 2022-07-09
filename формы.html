@@ -5,49 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Формы</title>
-    <style>
-        div {
-            padding: 6px;
-        }
-    </style>
 </head>
 <body>
     <form action="" method="">
-    <div>
         Имя: <br>
-        <form action="" >
-            <input type="text" placeholder="Андрей">
-        </form>
-    </div>
-    <div>
-        <input type="radio" name="language" id="" checked>
+        <input required type="text" placeholder="Андрей">        
+        <br><br><input required type="radio" name="language" id="" checked>
         Java
-        <input type="radio" name="language" id="" >
+        <input required type="radio" name="language" id="" >
         C++
-        <input type="radio" name="language" id="" >
+        <input required type="radio" name="language" id="" >
         Python
-        <input type="radio" name="language" id="" >
+        <input required type="radio" name="language" id="" >
         PHP
-        <input type="radio" name="language" id="" >
+        <input required type="radio" name="language" id="" >
         JavaScript
-    </div>
-    <div>
-        Дополнительная информация:
-        <br><textarea name="" id="" cols="30" rows="4" placeholder="Есть опыт программирования на Java"></textarea>        
-    </div>
-    <div>
-        Секретное слово:
-        <form action="" >
-            <input type="password" placeholder="********">
-        </form>
-    </div>
-    <div>
-        <form action="">
-            <input type="checkbox" >
-            С правилами ознакомился и согласен
-        </form>
-    </div>
-        <button type="submit">Отправить</button>
+        <br><br>Дополнительная информация:
+        <br><textarea required name="" id="" cols="30" rows="4" placeholder="Есть опыт программирования на Java"></textarea>        
+    
+        <br><br>Секретное слово:
+        
+        <br><input required type="password" placeholder="********">      
+        
+        <br><br><input required type="checkbox" >
+        С правилами ознакомился и согласен
+        
+        <br><br><button type="submit">Отправить</button>
         <button type="clear">Очистить</button>
 
 </form>
